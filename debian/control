@@ -1,0 +1,24 @@
+Source: bitbucket-api
+Maintainer: Dennis Kaarsemaker <dennis@kaarsemaker.net>
+Section: python
+Priority: optional
+Build-Depends: debhelper, python-all,  python-requests,  python-requests-oauthlib,
+                          python3-all, python3-requests, python3-requests-oauthlib
+Standards-Version: 3.9.3
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.0
+Homepage: http://bitbucket-api.readthedocs.org/
+
+Package: python-bitbucket-api
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-urllib3 (>= 1.7.1), python-requests (>= 2.0.0), python-requests-oauthlib
+Description: Wrapper around the BitBucket REST API
+ Wrapper around the BitBucket REST API
+
+Package: python3-bitbucket-api
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}, python3-urllib3 (>= 1.7.1), python-requests (>= 2.0.0), python3-requests-oauthlib
+Description: Wrapper around the BitBucket REST API
+ Wrapper around the BitBucket REST API
+ .
+ This package contains the Python 3 version of the library.
