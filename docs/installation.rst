@@ -25,6 +25,10 @@ Or, download the zipball: ::
 
 Test
 ^^^^
+Install test requirements::
+
+    pip install -r dev-requirements.txt
+
 Run public tests::
 
 	site-packages$> python -m bitbucket.tests.public

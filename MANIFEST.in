@@ -1,1 +1,8 @@
 include LICENSE
+include README.md
+include requirements.txt
+include dev-requirements.txt
+include docs/*.rst
+include docs/Makefile
+include docs/make.bat
+include docs/conf.py

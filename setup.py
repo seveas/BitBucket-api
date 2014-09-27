@@ -14,10 +14,9 @@ if __name__ == "__main__":
         url='https://github.com/Sheeprider/BitBucket-api',
         packages=[
             'bitbucket',
-            'bitbucket.tests',
         ],
         license=open('LICENSE').read(),
-        install_requires=['requests', 'sh', 'requests-oauthlib'],
+        install_requires=['requests', 'requests-oauthlib'],
         classifiers=[
             'Development Status :: 3 - Alpha',
             'Intended Audience :: Developers',
